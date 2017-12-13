@@ -32,7 +32,6 @@ public class LoginTest {
         }
         System.out.println(subject.isAuthenticated());
         Assert.assertEquals(true, subject.isAuthenticated()); //断言用户已经登录
-        System.out.println(subject.isAuthenticated());
         //6、退出
         subject.logout();
         System.out.println(subject.isAuthenticated());
